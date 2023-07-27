@@ -1,0 +1,8 @@
+version: '3.9'
+
+services:
+  cog:
+    image: opencog/learn:latest
+    command: /usr/local/bin/cogserver
+    ports:
+      - 18080:18080
