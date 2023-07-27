@@ -1,18 +1,19 @@
 {
-    "name": "logseq-atomspace-tools",
-    "version": "0.1.0",
-    "author": "Ryan Brooks",
-    "main": "index.html",
-    "description": "",
-    "license": "MIT",
-    "devDependencies": {
-      "@logseq/libs": "^0.0.1-alpha.29"
-    },
-    "browserslist": [
-      "chrome 80"
-    ],
-    "logseq": {
-      "id": "_edodonfur",
-      "icon": "logseq.png"
-    }
+  "name": "logseq-atomspace-tools",
+  "version": "0.1.0",
+  "author": "OpenCog Foundation",
+  "main": "src/index.html",
+  "description": "",
+  "license": "MIT",
+  "devDependencies": {
+    "@logseq/libs": "^0.0.15",
+    "prettier": "^3.0.0"
+  },
+  "browserslist": [
+    "chrome 80"
+  ],
+  "logseq": {
+    "id": "_opencog",
+    "icon": "src/logseq.png"
   }
+}
